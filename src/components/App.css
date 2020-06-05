@@ -1,0 +1,26 @@
+/* body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+} */
+
+body {
+    height: 100vh;
+
+    background: rgb(108,236,244);
+    background: linear-gradient(0deg, rgba(108,236,244,1) 0%, rgba(245,127,204,1) 70%);
+}
+
+.container {
+    height: 500px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator__block {
+    height: 300px;
+    background: rgba(255, 253, 253, 0.664);
+
+    padding: 20px 30px;
+}
