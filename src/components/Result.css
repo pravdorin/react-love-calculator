@@ -1,0 +1,43 @@
+.result {
+    width: 90%;
+    margin: 20px auto;
+
+    text-align: center;
+}
+
+.result-percent  {
+    text-align: center;
+
+    font-size: 66px;
+}
+
+@media (min-width: 768px) {
+    .result {
+        margin: 40px auto;
+        font-size: 20px;
+    }
+    
+    .result-percent  {
+        font-size: 86px;
+    }
+
+    .result-phrase {
+        font-size: 36px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .result {
+        margin: 50px auto;
+        font-size: 30px;
+    }
+    
+    .result-percent  {
+        font-size: 96px;
+    }
+
+    .result-phrase {
+        font-size: 36px;
+    }
+}

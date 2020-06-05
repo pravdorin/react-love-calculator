@@ -1,12 +1,14 @@
 import React from 'react';
+import './Result.css';
 
 const Result = ({ percentage, phrase }) => (
-  <div>
-    <div>
-      Your compatibility:
-      {percentage}
+  <div className="result">
+    Your compatibility:
+    <div className="result-percent">
+      { percentage }
+      %
     </div>
-    <h1>{phrase}</h1>
+    <div className="result-phrase">{ phrase }</div>
   </div>
     )
 

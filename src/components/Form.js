@@ -8,7 +8,7 @@ class Form extends React.Component {
       e.preventDefault();
 
       if (this.state.queryName === '' || this.state.queryCrash === '') {
-        console.log('error');
+        this.props.calcLove();
       }
       if (this.state.queryName !== '' && this.state.queryCrash !== '') {
         this.props.calcLove(this.state.queryName, this.state.queryCrash);
@@ -32,7 +32,7 @@ class Form extends React.Component {
               value={this.state.queryCrash}
               onChange={(e) => this.setState({ queryCrash: e.target.value })}
             />
-            <button className="btn-submit"onClick={this.submitForm} type="submit">
+            <button className="btn-submit" onClick={this.submitForm} type="submit">
               Calculate
             </button>
           </form>

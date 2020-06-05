@@ -9,3 +9,17 @@
 
     margin-bottom: 50px;
 }
+
+@media (min-width: 768px) {
+    .logo {
+        font-size: 70px;
+    }
+    
+}
+
+
+@media (min-width: 1024px) {
+    .logo {
+        font-size: 80px;
+    }
+}

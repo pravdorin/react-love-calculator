@@ -16,7 +16,7 @@ class App extends React.Component {
           fname: name,
           sname: crash,
         },
-      }
+      },
     );
 
     this.setState({
@@ -29,10 +29,10 @@ class App extends React.Component {
     return (
       <div className='container'>
         <div className='calculator'>
-        <Logo />
-          <div className="calculator__block">
-          <Form calcLove={this.calcLove} />
-          <Result percentage={this.state.percentage} phrase={this.state.phrase} />
+          <Logo />
+          <div className='calculator__block'>
+            <Form calcLove={this.calcLove} />
+            <Result percentage={this.state.percentage} phrase={this.state.phrase} />
           </div>
         </div>
       </div>
